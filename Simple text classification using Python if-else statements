@@ -1,0 +1,9 @@
+texts = ["I love programming", "The weather is hot today", "Exercise is important for health"]
+
+for text in texts:
+    if "programming" in text:
+        print(f"'{text}' => Category: Technology")
+    elif "weather" in text:
+        print(f"'{text}' => Category: Weather")
+    else:
+        print(f"'{text}' => Category: General")
