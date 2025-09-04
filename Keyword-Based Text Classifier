@@ -1,0 +1,11 @@
+keywords = {
+    "Technology": ["programming", "Python", "AI"],
+    "Sports": ["football", "sports", "exercise"],
+    "Weather": ["weather", "hot", "cold"]
+}
+
+text = "Today the weather is hot"
+for category, words in keywords.items():
+    if any(word in text for word in words):
+        print(f"'{text}' => Category: {category}")
+        break
