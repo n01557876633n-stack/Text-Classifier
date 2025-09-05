@@ -1,0 +1,4 @@
+def greet_client():
+    return "Hello dear! Ready to create something amazing"
+
+print(greet_client())
