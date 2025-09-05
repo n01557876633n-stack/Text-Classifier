@@ -1,0 +1,8 @@
+<div id="counter" style="font-size:24px; color:#ff69b4;">0</div>
+<script>
+  let count = 0;
+  setInterval(() => {
+    if(count < 100) count++;
+    document.getElementById('counter').innerText = count + "% جاهز!";
+  }, 50);
+</script>
